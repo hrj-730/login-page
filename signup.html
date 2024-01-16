@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>signin page</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Sign up</h2>
+        <img src="border.png" alt="Avatar" style="width:200px">
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+          </form>
+    <form action="#">
+      <input type="text" placeholder="Firstname">
+      <input type="text" placeholder="Lastname">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="password" placeholder="Confirm Password">
+    <p>Please select your gender:</p>
+      <input type="radio" id="m" name="gender" value="male">
+      <label for="m">MALE</label>
+      <input type="radio" id="f" name="gender" value="female">
+      <label for="f">FEMALE</label><br><br>
+      <label for="state">Select your district:</label>
+      <select name="district" id="district">
+        <option value="kas">KASARGOD</option>
+        <option value="kan">KANNUR</option>
+        <option value="ko">KOZHIKOD</option>
+        <option value="wa">WAYANAD</option>
+        <option value="mal">MALAPPURAM</option>
+      </select>
+      <br><br><input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>
