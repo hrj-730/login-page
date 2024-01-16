@@ -1,0 +1,38 @@
+.container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .container input[type="text"]{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .container input[type="password"]{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .container input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .container img {
+    margin: 70px;
+    border-radius: 50%;
+  }
+  
